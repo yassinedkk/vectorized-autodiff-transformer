@@ -12,7 +12,7 @@ Portfolio project for **LINMA2472 — Algorithms in Data Science**. The work imp
 
 ## Experimental results
 
-The measurements below come from the submitted [results presentation](https://github.com/yassinedkk/LDAT2M/blob/main/portfolio/vectorized-autodiff-transformer/results_presentation.pptx). They were not rerun during portfolio packaging.
+The measurements below come from the submitted [results presentation](results_presentation.pptx). They were not rerun during portfolio packaging.
 
 ### Vectorized reverse-mode gradients
 
@@ -45,7 +45,7 @@ The forward-over-reverse implementation produced the largest reported gain on th
 
 Newton-CG achieved a lower final loss in both experiments. The improvement was larger for regression, while the classification runtimes were close.
 
-![Computation graph](https://github.com/yassinedkk/LDAT2M/blob/main/portfolio/vectorized-autodiff-transformer/dag.png)
+![Computation graph](dag.png)
 
 ## Run
 
